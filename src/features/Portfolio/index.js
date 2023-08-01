@@ -1,8 +1,8 @@
 import { StyledPortfolio } from "./styled";
 
-const Portfolio = ({photo, name, description}) => (
+const Portfolio = () => (
     <StyledPortfolio>
-        
+        Bryczek Mateusz
     </StyledPortfolio>
 );
 
