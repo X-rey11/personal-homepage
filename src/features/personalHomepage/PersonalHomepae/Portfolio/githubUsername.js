@@ -1,1 +1,0 @@
-export const gitHubUsername = "X-rey11"
