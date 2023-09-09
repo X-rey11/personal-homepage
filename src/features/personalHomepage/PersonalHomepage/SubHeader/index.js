@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SubHeader = styled.hw`
+export const SubHeader = styled.h2`
     margin: 0px;
     font-size: 30px;
     font-weight: 900;
