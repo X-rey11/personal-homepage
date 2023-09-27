@@ -13,7 +13,7 @@ export const Wrapper = styled.header`
         grid-gap: 32px;
     }
 
-    @media(max-width: ${({ theme }) => theme.brakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 12px;
     }
@@ -24,7 +24,7 @@ export const Avatar = styled.img`
     max-width: 384px;
     border-radius: 50%;
 
-    @media(max-width: ${({ theme }) => theme.brakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         max-width: 132px;
     }
 `;

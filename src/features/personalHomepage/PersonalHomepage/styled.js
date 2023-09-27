@@ -5,7 +5,7 @@ export const Container = styled.div`
     padding: 16px;
     margin: auto;
 
-    @media(max-width: ${({ theme }) => theme.brakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         padding: 8px;
     }
 `;
@@ -14,7 +14,7 @@ export const Icon = styled.img`
     vertical-align: middle;
     margin-left: 5px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         height: 16px;
     }
 `;
