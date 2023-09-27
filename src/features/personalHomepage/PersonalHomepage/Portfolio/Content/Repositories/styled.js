@@ -59,7 +59,7 @@ export const Links = styled.dl`
     grid-gap: 8px;
     line-height: 1.6;
 
-    @media(max-width: ${({ theme }) => theme. breakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 14px;
         margin-top: 16px;
     }
