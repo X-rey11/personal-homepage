@@ -15,6 +15,8 @@ const colorNames = {
     doveGray: "#686868",
     cornflowerBlue: "#6195ED",
     shipCove: "#6D93BE",
+    tundora: "#414141",
+    ironTransparent: "rgba(209, 213, 218, 0.3)",
 };
 
 const common = {
@@ -44,7 +46,7 @@ export const themeLight = {
         boxBackground: colorNames.white,
         headerLine: colorNames.mercury,
         
-        title: {
+        tile: {
             border: colorNames.porcelain,
             borderHover: colorNames.tropicalBlue,
             header: colorNames.scienceBlue,
@@ -71,6 +73,16 @@ export const themeDark = {
             shadow: colorNames.shipCove,
         },
         boxBackground: colorNames.mineShaftLighter,
-        
-    },
-}
+            headerLine: colorNames.tundora,
+
+        tile : {
+            border: colorNames.tundora,
+            borderHover: colorNames.blumine,
+            header: colorNames.white,
+        },
+        themeSwitch: {
+            background: colorNames.doveGray,
+            icon: colorNames.mineShaft,
+        },
+    }, 
+};
