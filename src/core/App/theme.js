@@ -2,20 +2,19 @@ const colorNames = {
     mineShaft: "#252525",
     slateGray: "#6E7E91",
     scienceBlue: "#0366D6",
-    scienceBlueLighter: "#0366d633",
-    scienceBlueDarker: "#0366d680",
+    scienceBlueLighter: "#2188FF",
+    scienceBlueDarker: "#1F5189",
+    anakiwa: "#8CC2FF",
     white: "#FFFFFF",
     mercury: "#E5E5E5",
-    whiteLilac: "#FBFBFE",
-    iron: "#D1D5DA",
-    ironLighter: "#d1d5da4d",
-    ironDarker: "#363636b8",
-    dodgerBlue: "#2188FF",
+    whiteLilac: "#F8F8FE",
+    iron: "#CDE0F7",
     mineShaftLighter: "#313131",
-    doveGray: "#686868",
+    doveGray: "#6D6D6D",
     cornflowerBlue: "#6195ED",
     shipCove: "#6D93BE",
     tundora: "#414141",
+    porcelain: "#F2F3F4",
     ironTransparent: "rgba(209, 213, 218, 0.3)",
 };
 
@@ -48,7 +47,7 @@ export const themeLight = {
         
         tile: {
             border: colorNames.porcelain,
-            borderHover: colorNames.tropicalBlue,
+            borderHover: colorNames.iron,
             header: colorNames.scienceBlue,
         },
         themeSwitch: {
@@ -61,7 +60,7 @@ export const themeLight = {
 export const themeDark = {
     ...common,
     colors: {
-        primary: colorNames.dodgerBlue,
+        primary: colorNames.scienceBlueLighter,
         textPrimary: colorNames.white,
         site: {
             background: colorNames.mineShaft,
@@ -71,13 +70,14 @@ export const themeDark = {
             text: colorNames.white,
             border: colorNames.ironTransparent,
             shadow: colorNames.shipCove,
+            
         },
         boxBackground: colorNames.mineShaftLighter,
             headerLine: colorNames.tundora,
 
         tile : {
             border: colorNames.tundora,
-            borderHover: colorNames.blumine,
+            borderHover: colorNames.scienceBlueDarker,
             header: colorNames.white,
         },
         themeSwitch: {
