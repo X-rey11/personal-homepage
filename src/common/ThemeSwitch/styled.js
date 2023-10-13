@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
 
 export const Button = styled.button`
     cursor: pointer;
+    background: none;
     border: none;
     display: flex;
     align-items: center;
