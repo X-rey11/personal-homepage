@@ -18,5 +18,9 @@ export const skills = [
 ];
 
 export const nextSkills = [
-    
+    "Node.js",
+    "React Context",
+    "TypeScript",
+    "Cypress",
+    "JS classes",
 ];
