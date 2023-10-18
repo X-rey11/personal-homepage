@@ -1,7 +1,7 @@
 import { MainInformation } from "./MainInfo";
 import { Skills } from "./Skills";
 import { Container, Icon } from "./styled";
-import { skills, nextSkills } from ".//skillsData";
+import { skills, nextSkills } from "./skillsData";
 import { Portfolio } from './Portfolio';
 import { Footer } from "./Footer";
 import { ThemeSwitch } from "../../../common/ThemeSwitch";

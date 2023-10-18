@@ -4,9 +4,10 @@ export const Skills = ({ title, skills }) => (
     <Section>
         <StyledHeader>{title}</StyledHeader>
         <List>
-            {skills.map(skill => (
+            {skills.map((skill) => (
                 <Item key={skill}>
                     <StyledDot />
+                    {skill}
                 </Item>
             ))}
         </List>
