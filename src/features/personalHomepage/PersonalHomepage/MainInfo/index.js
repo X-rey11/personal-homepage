@@ -9,7 +9,7 @@ export const MainInformation = () => (
             <ThisIs>This is</ThisIs>
             <Name>Mateusz Bryczek</Name>
             <Summary>
-                Test
+                I'm Frontend Developer currently looking for a job and opportunity to develop my skills and also to learn a new ones.
             </Summary>
             <StyledButtonLink href={`mailto:${email}`} title={email}>
                 <ButtonIcon />
