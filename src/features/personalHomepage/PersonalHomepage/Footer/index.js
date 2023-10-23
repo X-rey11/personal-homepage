@@ -10,7 +10,7 @@ export const Footer = () => (
                 <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
             </Emailwrapper>
             <Paragraph>
-                Test
+                Thanks for visiting my website, i hope you liked it!
             </Paragraph>
             <SocialIcons />
         </Address>

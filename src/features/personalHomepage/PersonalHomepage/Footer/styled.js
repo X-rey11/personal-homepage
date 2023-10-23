@@ -44,7 +44,7 @@ export const EmailLink = styled.a`
 
 export const Paragraph = styled.p`
     max-width: 670px;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 1.4;
     color: ${({ theme }) => theme.colors.textPrimary};
     margin: 0px;
