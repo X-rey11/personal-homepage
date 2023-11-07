@@ -82,5 +82,7 @@ export const Link = styled.a`
 
     &:hover {
         border-color: unset;
+        filter: brightness(125%);
+        transition: 0.3s;
     }
 `;
