@@ -5,6 +5,10 @@ Welcome to my portfolio website, where you can find some informatione about me a
 ## Demo
 [Mateusz Bryczek - Personal Homepage](https://x-rey11.github.io/personal-homepage/)
 
+## Used Technologies:
+
+`JavaScript` `React` `API` `Axios` `styled-components` `Normalize.css` `Immuntabbility` `Accesability` `Flex` `Grid` `Git`
+
 
 # Getting Started with Create React App
 
