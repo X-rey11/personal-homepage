@@ -10,7 +10,7 @@ export const skills = [
     "Promises, Async/Await",
     "Debugging",
     "Git",
-    "Githun",
+    "Github",
     "NPM",
     "Working with API Fetch/Axios",
     "Figma",
