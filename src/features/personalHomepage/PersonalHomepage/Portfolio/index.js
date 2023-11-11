@@ -1,7 +1,7 @@
 import { Content } from "./Content";
 import { StyledGithubIcon, Header, Section, MyRecentProjects } from "./styled";
 import { SubHeader } from "../SubHeader";
-import { githubUsername } from "./githubUsername";
+import { githubUsername } from "../userData";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "../../personalHomepageSlice";
 import { useEffect } from 'react';
