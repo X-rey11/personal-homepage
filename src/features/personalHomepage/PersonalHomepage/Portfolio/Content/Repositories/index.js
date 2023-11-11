@@ -4,7 +4,7 @@ export const Repositories = ({ repositories }) => (
     <List>
         {repositories.map(({ id, name, description, homepage, html_url }) => (
             <Tile key={id}>
-                <Name>{name}</Name>
+                <Name>{name.replace(/-/g,' ')}</Name>
                 <Description>{description}</Description>
                 <Links>
                     {!!homepage && (
