@@ -9,7 +9,7 @@ export const Wrapper = styled.footer`
 `;
 
 export const LetsTalk = styled.h2`
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: initial;
     margin: 0px;
@@ -18,7 +18,8 @@ export const LetsTalk = styled.h2`
 export const Address = styled.address`
     font-style: unset;
 `;
-export const Emailwrapper = styled.div`
+
+export const EmailWrapper = styled.div`
     margin: 24px 0px;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
