@@ -32,6 +32,7 @@ export const Avatar = styled.img`
 export const ThisIs = styled.div`
     font-weight: bold;
     letter-spacing: initial;
+    font-size: 12px;
 `;
 
 export const Name = styled.h1`

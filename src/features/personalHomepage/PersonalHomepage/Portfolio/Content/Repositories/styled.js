@@ -14,7 +14,7 @@ export const List = styled.ul`
     }
 `;
 
-export const Tile =styled.li`
+export const Tile = styled.li`
     padding: 56px;
     margin: 0px;
     background: ${({ theme }) => theme.colors.boxBackground};

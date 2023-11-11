@@ -6,7 +6,7 @@ export const MainInformation = () => (
     <Wrapper>
         <Avatar src={myPhoto} alt="Mateusz Bryczek" />
         <div>
-            <ThisIs>This is</ThisIs>
+            <ThisIs>THIS IS</ThisIs>
             <Name>Mateusz Bryczek</Name>
             <Summary>
                 I'm Frontend Developer currently looking for a job and opportunity to develop my skills and also to learn a new ones.
