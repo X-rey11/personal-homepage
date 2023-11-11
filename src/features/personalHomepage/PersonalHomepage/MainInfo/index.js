@@ -1,4 +1,4 @@
-import { email } from "../email";
+import { email } from "../userData";
 import { Wrapper, ThisIs, Name, Summary, StyledButtonLink, ButtonIcon, Avatar } from "./styled";
 import myPhoto from "./profile.jpg";
 

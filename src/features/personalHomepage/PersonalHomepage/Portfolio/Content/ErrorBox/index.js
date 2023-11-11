@@ -1,5 +1,5 @@
 import { ButtonLink } from "../../../ButtonLink";
-import { githubUsername } from "../../githubUsername";
+import { githubUsername } from "../../../userData";
 import { Header, Paragraph, Wrapper } from "./styled";
 import { ReactComponent as WarningIcon } from "./warning.svg";
 
