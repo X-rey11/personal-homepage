@@ -3,7 +3,7 @@
 Welcome to my portfolio website, where you can find some informatione about me and my skills
 
 ## Demo
-[Mateusz Bryczek - Personal Homepage](https://x-rey11.github.io/personal-homepage/)
+[Mateusz Bryczek - Personal Homepage](https://mateuszbryczek.github.io/personal-homepage/)
 
 ## Used Technologies:
 
