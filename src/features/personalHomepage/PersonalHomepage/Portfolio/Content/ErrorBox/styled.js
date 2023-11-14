@@ -16,6 +16,7 @@ export const Wrapper = styled.article`
 export const Header = styled.header`
     font-weight: 900px;
     font-size: 24px;
+    font-weight: bold;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size:17px;
