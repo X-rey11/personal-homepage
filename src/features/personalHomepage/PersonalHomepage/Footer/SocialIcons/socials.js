@@ -6,7 +6,7 @@ import { ReactComponent as InstagramIcon } from "./icons/instagram.svg";
 export const socials = [
     {
         name: "GitHub",
-        url: "https://github.com/X-rey11",
+        url: "https://github.com/MateuszBryczek",
         Icon: styledIcons(GithubIcon),
     },
     {
